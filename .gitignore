@@ -1,0 +1,23 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Data and everything the notebook generates (regenerable; never commit)
+data/*
+!data/README.md
+cache/
+exports/
+plots/
+*.zarr/
+*.parquet
+*.tif
+*.tiff
+*.czi
+*.mov
+*.npz

@@ -1,0 +1,20 @@
+[project]
+name = "lightsheet-movie-explorer"
+version = "0.1.0"
+description = "Explore tracked lightsheet movies: QC, aggregate center, motion, reporter thresholding, parquet export"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-image>=0.24",
+    "matplotlib>=3.9",
+    "plotly>=5.24",
+    "nbformat>=5.10",
+    "zarr>=3.0",
+    "pyarrow>=17",
+    "imageio[ffmpeg]>=2.35",
+    "tifffile>=2024.8",
+    "ipykernel>=6.29",
+]
