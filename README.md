@@ -15,7 +15,7 @@ It never loads raw frames, so it runs on a 16 GB laptop even for movies with 2+ 
    ```
 2. Get the code and build the environment:
    ```bash
-   git clone https://github.com/<owner>/lightsheet-movie-explorer.git
+   git clone https://github.com/<briametzger>/lightsheet-movie-explorer.git
    cd lightsheet-movie-explorer
    uv sync        # installs Python 3.12 if needed and the exact package versions in uv.lock
    ```
